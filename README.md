@@ -10,7 +10,13 @@ In this lesson, we'll learn about the supervised learning algorithm **_K-Nearest
 You will be able to:
 
 * Implement a basic KNN Algorithm from scratch
-
+* Describe what a KNN is used for
+    * KNN is used for classification/regression
+* Describe how it works
+    * KNN finds the K closest points to our new point
+    * Then it sums up the total label counts
+    * Classifies our new point based on the highest count label
+    
 
 ## What is K-Nearest Neighbors?
 
@@ -40,3 +46,14 @@ Evaluating classification performance for KNN works the same as evaluating perfo
 
 ## Summary
 Great! In the next lab, you'll implement KNN using Python!
+
+### What is classification?
+Used to identify something it doesn't know
+
+Supervised setting - feed it data with classifications (whatever it is), then makes a guess on the new data's class
+
+### Supervised Learning - Training Data and Target Data (regression, classification)
+### Unsupervised Learning - Training Data
+
+#### Example of classification
+picture -> apple (1) or not_apple (orange) (0)
